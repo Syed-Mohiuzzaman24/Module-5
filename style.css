@@ -91,6 +91,7 @@ main{
     background: #fff8f3;
     border-radius: 20px;
     padding: 130px 150px;
+    text-align: center;
 
 }
 .sectitle{
@@ -107,3 +108,22 @@ main{
     margin-bottom: 30px;
 
 }
+.acontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.afield{
+    font-size: 20px;
+    color: #757575;
+
+}
+.adescription{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+
+}
+.ainfo{
+    margin-top: 50px;
+}
+
