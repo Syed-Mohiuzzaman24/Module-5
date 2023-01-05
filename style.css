@@ -15,11 +15,12 @@
 
     font-size: 45px;
     font-weight: 800;
+    margin-top: 20px;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin:40px 200px;
+    margin:20px 200px;
 }
 nav li{
     list-style: none;
@@ -29,6 +30,7 @@ nav li{
 nav ul{
     display: flex;
     align-items: center;
+    margin-top: 20px;
     
 }
 /* button design */
@@ -69,7 +71,7 @@ nav ul{
     background-image: url('images/header_bg.png'),url('images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    background-size:auto,70px;
+    background-size:700px,70px;
     
 }
 .imgset{
