@@ -168,10 +168,80 @@ img{
 /* Resume design */
 .rsec{
     margin-top: 130px;
+    background: #fff8f3;
+    border-radius: 20px;
+    padding: 130px 150px;
 }
 .rtitle{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-size:40px;
     font-weight: 700;
+    margin-top: 5px;
+}
+.rcontainer{
+    display: flex;
+    gap: 400px;
+}
+.rctitle{
+    margin-bottom: 20px;
+}
+.ridescription{
+    color: #757575;
+    margin-bottom: 5px;
+}
+.subtitle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.riitem{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.ritem{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cvbtn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Contact design */
+
+.contact .sectit{
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #fff8f3;
+    padding: 100px 100px;
+    margin-top: 50px;
+}
+.btn2{
+    font-weight: 700;
+    color: white;
+
+    border: 0;
+    padding: 20px 40px;
+
+    background-color: #FD6E0A;
+    border-radius: 10px;
+}
+.contact input[type="text"] input[type="email"],textarea{
+    margin-bottom: 50px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
+.condes{
+    margin-bottom: 30px;
 }
